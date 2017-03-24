@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+### Data Mining, Analysis, and Visualization
 
-You can use the [editor on GitHub](https://github.com/bmtgoncalves/TorinoCourse/edit/master/docs/README.md) to maintain and preview the content for your website in Markdown files.
+# Schedule
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Apr 24 (2h) - Prelimiaries
+-- Probability Theory
+-- Graph Theory
+-- Geocoding
 
-### Markdown
+- Apr 26 (2h) - Data Mining Online Social Networks
+-- Preliminaries
+-- Twitter
+-- Foursquare
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Apr 28 (2h) -  Data Mining Collaborative Platforms
+-- Wikipedia
+-- GitHub
 
-```markdown
-Syntax highlighted code block
+- May 2 (2h) - Web Scraping
+- scrapy
 
-# Header 1
-## Header 2
-### Header 3
+- May 3 (2h) - Geocoding and Mobility
+-- 
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bmtgoncalves/TorinoCourse/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- May 5 (2h) - Scientific Visualization
+-- 
