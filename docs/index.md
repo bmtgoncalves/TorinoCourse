@@ -1,6 +1,6 @@
 # Data Mining, Analysis, and Visualization
 
-# Schedule (tentative)
+## Schedule (tentative)
 
 - Apr 24 (2h) - Prelimiaries
   * Probability Theory
