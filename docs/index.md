@@ -6,32 +6,35 @@ The massification of smartphone devices with Internet and GPS capabilities has o
 
 ## Schedule (tentative)
 
-- Apr 24(2h) - Online Social Networks
-  * Authentication (BasicAuth, OAuth1, OAuth2)
-  * Twitter API
-  * Foursquare API
+All lectures will take place in "Sala Riunioni".
 
-- Apr 26 (2h) - Collaborative Platforms
-  * Wikipedia
-  * GitHub
-
-- Apr 28 (2h) - Web Scraping
+- **Apr 24 - 10:00-12:00** - Web Scraping
   * requests
   * scrapy
   * BeautifulSoup
   * PyQuery
 
-- May 2 (2h) - Geocoding and Spatial Analysis
+- **Apr 26 - 16:00-18:00** - Online Social Networks
+  * Authentication (BasicAuth, OAuth1, OAuth2)
+  * Twitter API
+  * Foursquare API
+  * Google API
+
+- **Apr 28 - 10:00-12:00** - Collaborative Platforms
+  * Wikipedia
+  * GitHub
+
+- **May 2 - 14:00-16:00** - Geocoding and Spatial Analysis
   * shapefiles
   * PostGIS
   * geopy
 
-- May 3 (2h) - Scientific Visualization
+- **May 3 - 16:00-18:00** - Scientific Visualization
   * Human Perception
   * Basic plotting
   * Mapping and geographical Projections
 
-- May 5 (2h) - Case study
+- **May 5 - 10:00-12:00** - Case study
   * Data Collection
   * Analysis
   * Visualization
