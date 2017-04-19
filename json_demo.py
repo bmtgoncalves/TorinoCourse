@@ -11,4 +11,4 @@ for user in data:
     name = user["name"]
 
     for friend in user["friends"]:
-        print(name, "->", friend[“name"])
+        print(name, "->", friend["name"])
