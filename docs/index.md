@@ -9,10 +9,13 @@ The massification of smartphone devices with Internet and GPS capabilities has o
 All lectures will take place in "Sala Riunioni".
 
 - **Apr 24 - 10:00-12:00** - Web Scraping
+  * urllib
   * requests
-  * scrapy
+  * json
+  * Google Developer Tools
   * BeautifulSoup
   * PyQuery
+  * NetworkX
 
 - **Apr 26 - 16:00-18:00** - Online Social Networks
   * Authentication (BasicAuth, OAuth1, OAuth2)
