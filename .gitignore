@@ -2,6 +2,7 @@
 Gemfile
 Gemfile.lock
 _site/
+*_accounts.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
