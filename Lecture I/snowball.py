@@ -26,4 +26,4 @@ def snowball(net, seed, max_depth = 3, maxnodes=1000):
 net = NX.connected_watts_strogatz_graph(10000, 4, 0.01)
 neve = snowball(net, 0)
 
-print(len(neve))
+print(neve)
