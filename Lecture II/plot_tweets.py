@@ -8,7 +8,7 @@ y = []
 line_count = 0
 
 try:
-    for line in gzip.open(sys.argv[1]):
+    for line in open(sys.argv[1]):
         try:
             tweet = eval(line.strip())
             line_count += 1

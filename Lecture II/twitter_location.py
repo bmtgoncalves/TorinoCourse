@@ -2,6 +2,7 @@ import twitter
 from twitter_accounts import accounts
 import sys
 import gzip
+import json
 
 app = accounts["social"]
 
@@ -18,7 +19,8 @@ stream_results = stream_api.statuses.filter(locations=query)
 
 tweet_count = 0
 
-fp = gzip.open("NYC.json.gz", "a")
+fp = open("NYC.json", "w")
+encoder = json.JSONEncoder()
 
 for tweet in stream_results:
     try:
