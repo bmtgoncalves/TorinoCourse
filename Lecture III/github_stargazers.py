@@ -14,7 +14,7 @@ repo = user.get_repo(repository_name)
 user_count = 0
 
 for user in repo.get_stargazers():
-    print user_count, user.name
+    print(user_count, user.name)
 
     user_count += 1
 

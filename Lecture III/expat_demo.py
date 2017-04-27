@@ -1,5 +1,4 @@
 import sys
-import gzip
 from xml.parsers import expat
 
 buffer = ""

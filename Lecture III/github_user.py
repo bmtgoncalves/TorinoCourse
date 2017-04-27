@@ -12,7 +12,7 @@ user = client.get_user(screen_name)
 follow_count = 0
 
 for follow in user.get_followers():
-    print follow_count, follow.name
+    print(follow_count, follow.name)
 
     follow_count += 1
 

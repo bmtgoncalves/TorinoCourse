@@ -18,4 +18,4 @@ for commit in repo.get_commits():
     for parent in commit.parents:
         G.add_edge(parent.sha, commit.sha)
 
-print G.number_of_nodes(), G.number_of_edges()
+print(G.number_of_nodes(), G.number_of_edges())

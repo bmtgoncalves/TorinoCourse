@@ -21,11 +21,11 @@ All lectures will take place in "Sala Riunioni".
   * Authentication (BasicAuth, OAuth1, OAuth2)
   * Twitter API
   * Foursquare API
-  * Google API
 
 - **Apr 28 - 10:00-12:00** - Collaborative Platforms
-  * Wikipedia
   * GitHub
+  * Wikipedia
+  * Google Maps API
 
 - **May 2 - 14:00-16:00** - Geocoding and Spatial Analysis
   * shapefiles

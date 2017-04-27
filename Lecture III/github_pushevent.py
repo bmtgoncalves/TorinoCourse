@@ -8,10 +8,10 @@ token = accounts["social"]
 
 client = github.Github(token, per_page=100)
 
-filename = "2015-01-01-15.json.gz"
+filename = "data/2015-01-01-15.json.gz"
 
 for line in gzip.open(filename):
-    event = json.loads(line.strip())
+    event = json.loads(line.strip().decode())
 
     if event["type"] == "PushEvent":
         user_name, repo_name = event["repo"]["name"].split('/')
@@ -26,6 +26,8 @@ for line in gzip.open(filename):
                 commit = repo.get_commit(commit_id)
 
                 for parent in commit.parents:
-                    print commit_id, parent.sha
-        except Exception, e:
-            print >> sys.stderr, "Error processing", event["repo"]["name"], e.status
+                    print(commit_id, parent.sha)
+        except Exception as e:
+            print("Error processing", event["repo"]["name"], e.status, file=sys.stderr)
+        
+
