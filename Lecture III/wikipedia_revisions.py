@@ -10,8 +10,9 @@ buffer = u""
 page_id = None
 timestamp = None
 revision_id = None
+title = None
 
-fields = set(["timestamp", "page", "id", "ns", "revision", "contributor"])
+fields = set(["timestamp", "page", "id", "ns", "revision", "contributor", "title"])
 
 
 def start_element(name, attrs):
@@ -28,9 +29,10 @@ def start_element(name, attrs):
             isContributor = True
         else:
             isData = True
+            buffer = ""
 
 def end_element(name):
-    global buffer, isData, isPage, isArticle, isContributor, timestamp, page_id, revision_id
+    global buffer, isData, isPage, isArticle, isContributor, timestamp, page_id, revision_id, title
 
     if name in fields:
         if name == "ns":
@@ -48,11 +50,13 @@ def end_element(name):
                 revision_id = buffer
         elif name == "revision":
             if isArticle:
-                print(",".join([page_id, revision_id, timestamp]))
+                print(",".join([page_id, revision_id, timestamp, title]))
         elif name == "page":
             isArticle = False
         elif name == "contributor":
             isContributor = False
+        elif name == "title":
+            title = buffer
 
     buffer = u""
     isData = False
@@ -69,6 +73,8 @@ if __name__ == "__main__":
     p.StartElementHandler = start_element
     p.EndElementHandler = end_element
     p.CharacterDataHandler = char_data
+
+    print(",".join(["page_id", "revision_id", "timestamp", "title"]))
 
     try:
         p.ParseFile(gzip.open(sys.argv[1]))

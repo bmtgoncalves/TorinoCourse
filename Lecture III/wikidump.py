@@ -8,12 +8,11 @@ import os
 
 url_base = "https://dumps.wikimedia.org/"
 allowed_files = ["stub-meta-history.xml.gz",
-                 #"geo_tags.sql.gz",
-                 #"langlinks.sql.gz",
-                 #"pagelinks.sql.gz",
+                 "geo_tags.sql.gz",
+                 "langlinks.sql.gz",
                  ]
 
-allowed_wikis = ["enwiki"]
+allowed_wikis = ["acewiki"]
 
 def get_page(url):
     page = requests.get(url)
@@ -48,7 +47,7 @@ def get_files(url):
     if file_count == 0:
         print("\nDidn't find any files in", url, file=sys.stderr)
     else:
-        print("\nDownloaded", file_count, "files", file=sys.stderr)
+        print("\nDownloaded", file_count, "files from", url, file=sys.stderr)
 
 if __name__ == "__main__":
     print("Looking for", " ".join(allowed_files), "in", " ".join(allowed_wikis), file=sys.stderr)
