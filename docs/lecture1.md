@@ -10,6 +10,7 @@ The goal for this lecture is to familiarize the students with the basic tools us
   * BeautifulSoup
   * PyQuery
   * NetworkX
+
 By the end of the lecture the students will be able to programmatically connect to a remote webserver and parse its HTML code in order to extract specific information.
 
 <center>

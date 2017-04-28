@@ -6,6 +6,7 @@ The goal for this lecture is to introduce the students to the Authentication met
   * Authentication (BasicAuth, OAuth1, OAuth2)
   * Twitter API
   * Foursquare API
+
 By the end of the lecture the students will be able to programmatically query and search both APIs
 
 <center>

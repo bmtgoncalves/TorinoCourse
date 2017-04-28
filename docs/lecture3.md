@@ -6,6 +6,7 @@ The goal for this lecture is to familiarize the students to techniques related t
   * GitHub API
   * GitHub Archive
   * Wikipedia Database Dumps
+
 By the end of the lecture the students will be able to programmatically extract information from both Wikipedia and GitHub.
 
 <center>
