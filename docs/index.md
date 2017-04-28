@@ -4,11 +4,16 @@ As modern technologies gradually come to permeate our lives, our use of them bec
 
 The massification of smartphone devices with Internet and GPS capabilities has once again opened the floodgates of innovation. As a result, most of the datasets we consider are enriched with detailed location information either in the form of precise GPS coordinates or as free text. In the second part of this tutorial we will introduce the participants to geolocation and spatial analysis and visualization techniques with practical examples and case studies using the data collected. To finalize, a full pipeline from data collection to result visualization will be described in detail.
 
+## Venue
+
+All lectures will take place in "Sala Riunioni" of the "[Dipartimento de Informatica](https://www.google.it/maps/place/Universit%C3%A0+di+Torino+-+Dipartimento+di+Informatica/@45.0901604,7.6570523,17z/data=!3m1!4b1!4m5!3m4!1s0x47886db2ab717cef:0x405a8e3daad8d89e!8m2!3d45.0901566!4d7.659241?hl=en)" of the "Università degli Studi di Torino" in Turin, Italy. 
+
+<div style="text-align:center"><img src ="unito.jpg" /></div>
+
 ## Schedule (tentative)
 
-All lectures will take place in "Sala Riunioni".
 
-- **Apr 24 - 10:00-12:00** - Web Scraping
+- **Apr 24 - 10:00-12:00** - [Web Scraping](lecture1)
   * urllib
   * requests
   * json
@@ -17,17 +22,19 @@ All lectures will take place in "Sala Riunioni".
   * PyQuery
   * NetworkX
 
-- **Apr 26 - 16:00-18:00** - Online Social Networks
+- **Apr 26 - 16:00-18:00** - [Online Social Networks](lecture2)
   * Authentication (BasicAuth, OAuth1, OAuth2)
   * Twitter API
   * Foursquare API
+    
 
-- **Apr 28 - 10:00-12:00** - Collaborative Platforms
-  * GitHub
-  * Wikipedia
-  * Google Maps API
+- **Apr 28 - 10:00-12:00** - [Collaborative Platforms](lecture3)
+  * GitHub API
+  * GitHub Archive
+  * Wikipedia Database Dumps
 
 - **May 2 - 14:00-16:00** - Geocoding and Spatial Analysis
+  * Google Maps API
   * shapefiles
   * PostGIS
   * geopy
