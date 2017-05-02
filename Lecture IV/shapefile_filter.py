@@ -3,20 +3,11 @@ import shapefile
 from shapely.geometry import shape, Point
 import gzip
 
-shp = shapefile.Reader("geofiles/nybb_15c/nybb_wgs84.shp")
+shp = shapefile.Reader('geofiles/nybb_15c/nybb_wgs84.shp')
 
-print("Found", shp.numRecords, "records:")
+recordDict = dict(zip([record[1] for record in shp.iterRecords()], range(shp.numRecords)))
 
-pos = 2 # Manhattan
-
-count = 0
-for record in shp.records():
-    print(count, "  ", record[1])
-    count += 1
-
-print("Using", shp.records()[pos][1],"...", file=sys.stderr)
-
-manhattan = shape(shp.shapes()[pos])
+manhattan = shape(shp.shape(recordDict["Manhattan"]))
 fp = gzip.open("Manhattan.json.gz", "w")
 
 for line in gzip.open("NYC.json.gz"):
