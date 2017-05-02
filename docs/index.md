@@ -35,8 +35,12 @@ All lectures will take place in "Sala Riunioni" of the "[Dipartimento de Informa
 
 - **May 2 - 14:00-16:00** - Geocoding and Spatial Analysis
   * Google Maps API
+  * Geographical Information Systems
+  * GeoJSON
   * shapefiles
-  * PostGIS
+  * QGIS
+  * shapely
+  * pyshp
   * geopy
 
 - **May 3 - 16:00-18:00** - Scientific Visualization

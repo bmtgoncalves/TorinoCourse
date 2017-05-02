@@ -24,9 +24,6 @@ for line in gzip.open("NYC.json.gz"):
 
         if point is not None and manhattan.contains(point):
         	fp.write(line)
-
-        if point is None:
-        	print("Woot")
     except:
         pass
 
