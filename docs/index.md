@@ -33,7 +33,7 @@ All lectures will take place in "Sala Riunioni" of the "[Dipartimento de Informa
   * GitHub Archive
   * Wikipedia Database Dumps
 
-- **May 2 - 14:00-16:00** - Geocoding and Spatial Analysis
+- **May 2 - 14:00-16:00** - [Geocoding and Spatial Analysis](lecture4)
   * Google Maps API
   * Geographical Information Systems
   * GeoJSON
