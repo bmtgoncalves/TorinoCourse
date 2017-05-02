@@ -3,22 +3,6 @@ import json
 import gzip
 import matplotlib.pyplot as plt
 
-data = json.load(open('Europe_NUTS.geojson'))
-
-countries = {}
-
-countries["crs"] = data["crs"]
-countries["type"] = data["type"]
-countries["features"] = [] 
-
-for feat in data["features"]:         
-    if feat["properties"]["STAT_LEVL_"] == 0:
-    	countries["features"].append(feat)
-
-print(countries["features"][9]["properties"]["NUTS_ID"])
-
-spain = countries["features"][9]
-
 def get_bbox(country):
 	maxLat = None
 	maxLon = None
@@ -46,24 +30,32 @@ def get_bbox(country):
 		if  minLon is None or curMinLon < minLon:
 			minLon = curMinLon
 
-		#print(coords)
-
-		print(coords[-1])
-		print(curMaxLat, curMaxLon, curMinLat, curMinLon)
-
 	return maxLat, maxLon, minLat, minLon
 
 def plot_country(country):
 	for polygon in country["geometry"]["coordinates"]:
-		coords = np.array(polygon)[0]
+		coords = np.array(polygon)
 
 		plt.plot(coords.T[0], coords.T[1])
 
-	maxLat, maxLon, minLat, minLon = get_bbox(spain)
+	maxLat, maxLon, minLat, minLon = get_bbox(country)
 
 	plt.xlim(minLon, maxLon)
 	plt.ylim(minLat, maxLat)
 
-	plt.show()
+data = json.load(open('geofiles/NUTS_RG_20M_2013.geojson'))
 
-plot_country(spain)
+countries = {}
+
+countries["crs"] = data["crs"]
+countries["type"] = data["type"]
+countries = {}
+
+for feat in data["features"]:         
+    if feat["properties"]["STAT_LEVL_"] == 0:
+    	countries[feat["properties"]["NUTS_ID"]] = feat
+
+country = countries["EL"]
+
+plot_country(country)
+plt.savefig('Greece.png')
