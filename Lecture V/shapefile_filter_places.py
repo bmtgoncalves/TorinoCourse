@@ -3,14 +3,14 @@ import shapefile
 from shapely.geometry import shape, Point
 import gzip
 
-shp = shapefile.Reader('geofiles/nybb_15c/nybb_wgs84.shp')
+shp = shapefile.Reader('../Lecture IV/geofiles/nybb_15c/nybb_wgs84.shp')
 
 recordDict = dict(zip([record[1] for record in shp.iterRecords()], range(shp.numRecords)))
 
 manhattan = shape(shp.shape(recordDict["Manhattan"]))
 fp = gzip.open("Manhattan_places.json.gz", "w")
 
-for line in gzip.open("NYC.json.gz"):
+for line in gzip.open("../Lecture IV/NYC.json.gz"):
     try:
         tweet = eval(line.strip())
         point = None
