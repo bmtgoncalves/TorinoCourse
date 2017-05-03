@@ -5,7 +5,7 @@ import shapefile
 from shapely.geometry import shape, Point
 import matplotlib.pyplot as plt
 
-shp = shapefile.Reader('geofiles/nybb_15c/nybb_wgs84.shp')
+shp = shapefile.Reader('../Lecture IV/geofiles/nybb_15c/nybb_wgs84.shp')
 recordDict = dict(zip([record[1] for record in shp.iterRecords()], range(shp.numRecords)))
 
 manhattan = shp.shape(recordDict["Manhattan"])

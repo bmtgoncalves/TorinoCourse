@@ -41,7 +41,6 @@ All lectures will take place in "Sala Riunioni" of the "[Dipartimento de Informa
   * QGIS
   * shapely
   * pyshp
-  * geopy
 
 - **May 3 - 16:00-18:00** - Scientific Visualization
   * Human Perception

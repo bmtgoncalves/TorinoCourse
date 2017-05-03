@@ -11,7 +11,6 @@ In particular:
   * QGIS
   * shapely
   * pyshp
-  * geopy
 By the end of the lecture the students will be able to use Shapefiles to filter and select geolocated datasets.
 
 <center>
