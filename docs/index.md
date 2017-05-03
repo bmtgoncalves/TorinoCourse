@@ -42,7 +42,8 @@ All lectures will take place in "Sala Riunioni" of the "[Dipartimento de Informa
   * shapely
   * pyshp
 
-- **May 3 - 16:00-18:00** - Scientific Visualization
+- **May 3 - 16:00-18:00** - [Scientific Visualization](lecture5)
+  * geopy
   * Human Perception
   * Basic plotting
   * Mapping and geographical Projections
