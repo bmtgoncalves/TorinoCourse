@@ -7,13 +7,13 @@ In particular:
   * matplotlib
   * Basemap
   * Case Study - GLEaM
-  ** Bureau of Transportation Statistics Airline Datset
-  ** Geolocating Airports
-  ** Building an Airport Network
-  ** Combining airports that are too close into "super airports"
-  ** Population dataset
-  ** K-means/Voronoi tesselation
-  ** etc...
+      * Bureau of Transportation Statistics Airline Datset
+      * Geolocating Airports
+      * Building an Airport Network
+      * Combining airports that are too close into "super airports"
+      * Population dataset
+      * K-means/Voronoi tesselation
+      * etc...
 
 By the end of the lecture the students will be able to generate complex figures and maps.
 
