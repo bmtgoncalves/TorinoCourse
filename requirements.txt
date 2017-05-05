@@ -3,12 +3,14 @@ foursquare==1!2016.9.12
 geopy==1.11.0
 googlemaps==2.4.6
 langid==1.1.6
-matplotlib==2.0.0
+matplotlib==2.0.1
+matplotlib==2.0.1
 networkx==1.11
-numpy==1.12.0
+numpy==1.12.1
 pyquery==1.2.17
 requests==2.13.0
 Shapely==1.5.17.post1
+smopy==0.0.6
 wget==3.2
 beautifulsoup4==4.5.3
 PyGithub==1.34

@@ -48,10 +48,10 @@ All lectures will take place in "Sala Riunioni" of the "[Dipartimento de Informa
   * Basic plotting
   * Mapping and geographical Projections
 
-- **May 5 - 10:00-12:00** - Case study
-  * Data Collection
-  * Analysis
-  * Visualization
+- **May 5 - 10:00-12:00** - [Case study](lecture6)
+  * matplotlib
+  * Basemap
+  * Case Study - GLEaM
 
   ## Instructor
 

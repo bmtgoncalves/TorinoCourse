@@ -16,4 +16,4 @@ By the end of the lecture the students will be able to use raster and shapefiles
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/tbcjIP06J44u6L" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 </center>
 
-<div align="left" style="float: left;"><a href="/TorinoCourse/lecture4">[Previous Lecture]</a></div><div align="right" style="float: right;"><!--a href="/TorinoCourse/lecture6"-->[Next Lecture]<!--/a--></div>
+<div align="left" style="float: left;"><a href="/TorinoCourse/lecture4">[Previous Lecture]</a></div><div align="right" style="float: right;"><a href="/TorinoCourse/lecture6">[Next Lecture]</a></div>
