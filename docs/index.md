@@ -10,7 +10,7 @@ All lectures will take place in "Sala Riunioni" of the "[Dipartimento de Informa
 
 <div style="text-align:center"><img src ="unito.jpg" /></div>
 
-## Schedule (tentative)
+## Schedule
 
 
 - **Apr 24 - 10:00-12:00** - [Web Scraping](lecture1)
